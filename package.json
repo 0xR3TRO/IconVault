@@ -1,0 +1,36 @@
+{
+    "name": "iconvault",
+    "version": "1.0.0",
+    "description": "Free, open-source SVG icon library for modern web projects",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0xR3TRO/IconVault.git"
+    },
+    "keywords": [
+        "icons",
+        "svg",
+        "icon-library",
+        "open-source",
+        "free-icons",
+        "svg-icons",
+        "web-icons",
+        "ui-icons",
+        "outline",
+        "solid",
+        "mini",
+        "brands"
+    ],
+    "author": "0xR3TRO",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/0xR3TRO/IconVault/issues"
+    },
+    "homepage": "https://github.com/0xR3TRO/IconVault#readme",
+    "scripts": {
+        "optimize": "node tools/optimize.js",
+        "generate": "node tools/generate-index.js",
+        "build": "node tools/optimize.js && node tools/generate-index.js"
+    }
+}

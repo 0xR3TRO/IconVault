@@ -1,0 +1,1084 @@
+{
+    "name": "IconVault",
+    "version": "1.0.0",
+    "license": "CC0-1.0",
+    "totalIcons": 142,
+    "styles": ["outline", "solid", "mini", "brands", "custom"],
+    "categories": [
+        "ui",
+        "arrows",
+        "media",
+        "social",
+        "system",
+        "commerce",
+        "communication",
+        "navigation",
+        "devices",
+        "files",
+        "weather",
+        "security",
+        "data"
+    ],
+    "icons": [
+        {
+            "name": "alert-circle",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "warning",
+                "error",
+                "danger",
+                "alert",
+                "notification",
+                "exclamation"
+            ],
+            "paths": {
+                "outline": "icons/outline/alert-circle.svg",
+                "solid": "icons/solid/alert-circle.svg"
+            }
+        },
+        {
+            "name": "arrow-down",
+            "style": ["outline"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["down", "arrow", "direction", "move", "south"],
+            "paths": {
+                "outline": "icons/outline/arrow-down.svg"
+            }
+        },
+        {
+            "name": "arrow-left",
+            "style": ["outline"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["left", "arrow", "direction", "move", "back", "west"],
+            "paths": {
+                "outline": "icons/outline/arrow-left.svg"
+            }
+        },
+        {
+            "name": "arrow-right",
+            "style": ["outline"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["right", "arrow", "direction", "move", "forward", "east"],
+            "paths": {
+                "outline": "icons/outline/arrow-right.svg"
+            }
+        },
+        {
+            "name": "arrow-up",
+            "style": ["outline"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["up", "arrow", "direction", "move", "north"],
+            "paths": {
+                "outline": "icons/outline/arrow-up.svg"
+            }
+        },
+        {
+            "name": "battery",
+            "style": ["outline"],
+            "categories": ["devices", "system"],
+            "tags": ["battery", "power", "energy", "charge"],
+            "paths": {
+                "outline": "icons/outline/battery.svg"
+            }
+        },
+        {
+            "name": "bell",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "communication"],
+            "tags": ["bell", "notification", "alert", "ring", "alarm"],
+            "paths": {
+                "outline": "icons/outline/bell.svg",
+                "solid": "icons/solid/bell.svg",
+                "mini": "icons/mini/bell.svg"
+            }
+        },
+        {
+            "name": "bookmark",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "media"],
+            "tags": ["bookmark", "save", "favorite", "mark", "tag"],
+            "paths": {
+                "outline": "icons/outline/bookmark.svg",
+                "solid": "icons/solid/bookmark.svg"
+            }
+        },
+        {
+            "name": "calendar",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": ["calendar", "date", "schedule", "event", "planner"],
+            "paths": {
+                "outline": "icons/outline/calendar.svg",
+                "solid": "icons/solid/calendar.svg"
+            }
+        },
+        {
+            "name": "camera",
+            "style": ["outline", "solid"],
+            "categories": ["media", "devices"],
+            "tags": [
+                "camera",
+                "photo",
+                "picture",
+                "image",
+                "capture",
+                "snapshot"
+            ],
+            "paths": {
+                "outline": "icons/outline/camera.svg",
+                "solid": "icons/solid/camera.svg"
+            }
+        },
+        {
+            "name": "check",
+            "style": ["outline", "mini"],
+            "categories": ["ui"],
+            "tags": [
+                "check",
+                "done",
+                "complete",
+                "success",
+                "confirm",
+                "tick",
+                "approve"
+            ],
+            "paths": {
+                "outline": "icons/outline/check.svg",
+                "mini": "icons/mini/check.svg"
+            }
+        },
+        {
+            "name": "chevron-down",
+            "style": ["outline", "mini"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["chevron", "down", "expand", "dropdown", "arrow", "caret"],
+            "paths": {
+                "outline": "icons/outline/chevron-down.svg",
+                "mini": "icons/mini/chevron-down.svg"
+            }
+        },
+        {
+            "name": "chevron-left",
+            "style": ["outline", "mini"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["chevron", "left", "back", "previous", "arrow", "caret"],
+            "paths": {
+                "outline": "icons/outline/chevron-left.svg",
+                "mini": "icons/mini/chevron-left.svg"
+            }
+        },
+        {
+            "name": "chevron-right",
+            "style": ["outline", "mini"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["chevron", "right", "forward", "next", "arrow", "caret"],
+            "paths": {
+                "outline": "icons/outline/chevron-right.svg",
+                "mini": "icons/mini/chevron-right.svg"
+            }
+        },
+        {
+            "name": "chevron-up",
+            "style": ["outline", "mini"],
+            "categories": ["arrows", "navigation"],
+            "tags": ["chevron", "up", "collapse", "arrow", "caret"],
+            "paths": {
+                "outline": "icons/outline/chevron-up.svg",
+                "mini": "icons/mini/chevron-up.svg"
+            }
+        },
+        {
+            "name": "clipboard",
+            "style": ["outline", "mini"],
+            "categories": ["ui", "files"],
+            "tags": ["clipboard", "copy", "paste", "board"],
+            "paths": {
+                "outline": "icons/outline/clipboard.svg",
+                "mini": "icons/mini/clipboard.svg"
+            }
+        },
+        {
+            "name": "clock",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "system"],
+            "tags": ["clock", "time", "watch", "hour", "schedule", "timer"],
+            "paths": {
+                "outline": "icons/outline/clock.svg",
+                "solid": "icons/solid/clock.svg",
+                "mini": "icons/mini/clock.svg"
+            }
+        },
+        {
+            "name": "cloud",
+            "style": ["outline", "solid"],
+            "categories": ["weather", "system"],
+            "tags": ["cloud", "weather", "storage", "upload", "server"],
+            "paths": {
+                "outline": "icons/outline/cloud.svg",
+                "solid": "icons/solid/cloud.svg"
+            }
+        },
+        {
+            "name": "code",
+            "style": ["outline"],
+            "categories": ["system", "media"],
+            "tags": [
+                "code",
+                "programming",
+                "developer",
+                "brackets",
+                "html",
+                "source"
+            ],
+            "paths": {
+                "outline": "icons/outline/code.svg"
+            }
+        },
+        {
+            "name": "copy",
+            "style": ["outline"],
+            "categories": ["ui", "files"],
+            "tags": ["copy", "duplicate", "clone", "paste"],
+            "paths": {
+                "outline": "icons/outline/copy.svg"
+            }
+        },
+        {
+            "name": "credit-card",
+            "style": ["outline", "solid"],
+            "categories": ["commerce"],
+            "tags": [
+                "credit-card",
+                "payment",
+                "money",
+                "finance",
+                "bank",
+                "purchase"
+            ],
+            "paths": {
+                "outline": "icons/outline/credit-card.svg",
+                "solid": "icons/solid/credit-card.svg"
+            }
+        },
+        {
+            "name": "dollar-sign",
+            "style": ["outline"],
+            "categories": ["commerce"],
+            "tags": ["dollar", "money", "currency", "finance", "price", "cost"],
+            "paths": {
+                "outline": "icons/outline/dollar-sign.svg"
+            }
+        },
+        {
+            "name": "download",
+            "style": ["outline"],
+            "categories": ["ui", "system"],
+            "tags": ["download", "save", "export", "arrow-down", "get"],
+            "paths": {
+                "outline": "icons/outline/download.svg"
+            }
+        },
+        {
+            "name": "edit",
+            "style": ["outline"],
+            "categories": ["ui"],
+            "tags": ["edit", "pencil", "write", "modify", "pen", "compose"],
+            "paths": {
+                "outline": "icons/outline/edit.svg"
+            }
+        },
+        {
+            "name": "external-link",
+            "style": ["outline"],
+            "categories": ["ui", "navigation"],
+            "tags": [
+                "external",
+                "link",
+                "open",
+                "new-window",
+                "redirect",
+                "url"
+            ],
+            "paths": {
+                "outline": "icons/outline/external-link.svg"
+            }
+        },
+        {
+            "name": "eye",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "security"],
+            "tags": [
+                "eye",
+                "view",
+                "visible",
+                "show",
+                "watch",
+                "seen",
+                "preview"
+            ],
+            "paths": {
+                "outline": "icons/outline/eye.svg",
+                "solid": "icons/solid/eye.svg",
+                "mini": "icons/mini/eye.svg"
+            }
+        },
+        {
+            "name": "file",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["files", "system"],
+            "tags": ["file", "document", "page", "paper", "text"],
+            "paths": {
+                "outline": "icons/outline/file.svg",
+                "solid": "icons/solid/file.svg",
+                "mini": "icons/mini/file.svg"
+            }
+        },
+        {
+            "name": "filter",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "data"],
+            "tags": ["filter", "funnel", "sort", "refine", "narrow"],
+            "paths": {
+                "outline": "icons/outline/filter.svg",
+                "solid": "icons/solid/filter.svg"
+            }
+        },
+        {
+            "name": "folder",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["files", "system"],
+            "tags": ["folder", "directory", "collection", "organize"],
+            "paths": {
+                "outline": "icons/outline/folder.svg",
+                "solid": "icons/solid/folder.svg",
+                "mini": "icons/mini/folder.svg"
+            }
+        },
+        {
+            "name": "globe",
+            "style": ["outline"],
+            "categories": ["navigation", "system"],
+            "tags": [
+                "globe",
+                "world",
+                "earth",
+                "internet",
+                "web",
+                "international",
+                "language"
+            ],
+            "paths": {
+                "outline": "icons/outline/globe.svg"
+            }
+        },
+        {
+            "name": "grid",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "data"],
+            "tags": [
+                "grid",
+                "layout",
+                "table",
+                "columns",
+                "tiles",
+                "dashboard"
+            ],
+            "paths": {
+                "outline": "icons/outline/grid.svg",
+                "solid": "icons/solid/grid.svg"
+            }
+        },
+        {
+            "name": "heart",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "media"],
+            "tags": ["heart", "love", "like", "favorite", "health", "wish"],
+            "paths": {
+                "outline": "icons/outline/heart.svg",
+                "solid": "icons/solid/heart.svg",
+                "mini": "icons/mini/heart.svg"
+            }
+        },
+        {
+            "name": "help-circle",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": ["help", "question", "support", "info", "faq", "circle"],
+            "paths": {
+                "outline": "icons/outline/help-circle.svg",
+                "solid": "icons/solid/help-circle.svg"
+            }
+        },
+        {
+            "name": "home",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["navigation", "ui"],
+            "tags": ["home", "house", "main", "start", "dashboard"],
+            "paths": {
+                "outline": "icons/outline/home.svg",
+                "solid": "icons/solid/home.svg",
+                "mini": "icons/mini/home.svg"
+            }
+        },
+        {
+            "name": "image",
+            "style": ["outline", "solid"],
+            "categories": ["media", "files"],
+            "tags": ["image", "photo", "picture", "gallery", "media"],
+            "paths": {
+                "outline": "icons/outline/image.svg",
+                "solid": "icons/solid/image.svg"
+            }
+        },
+        {
+            "name": "info",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": ["info", "information", "about", "details", "help"],
+            "paths": {
+                "outline": "icons/outline/info.svg",
+                "solid": "icons/solid/info.svg"
+            }
+        },
+        {
+            "name": "layers",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "data"],
+            "tags": ["layers", "stack", "overlap", "depth", "z-index"],
+            "paths": {
+                "outline": "icons/outline/layers.svg",
+                "solid": "icons/solid/layers.svg"
+            }
+        },
+        {
+            "name": "link",
+            "style": ["outline"],
+            "categories": ["ui", "navigation"],
+            "tags": ["link", "chain", "url", "anchor", "connect", "hyperlink"],
+            "paths": {
+                "outline": "icons/outline/link.svg"
+            }
+        },
+        {
+            "name": "lock",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["security", "ui"],
+            "tags": [
+                "lock",
+                "secure",
+                "password",
+                "private",
+                "encrypted",
+                "closed"
+            ],
+            "paths": {
+                "outline": "icons/outline/lock.svg",
+                "solid": "icons/solid/lock.svg",
+                "mini": "icons/mini/lock.svg"
+            }
+        },
+        {
+            "name": "mail",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["communication"],
+            "tags": ["mail", "email", "envelope", "message", "inbox", "letter"],
+            "paths": {
+                "outline": "icons/outline/mail.svg",
+                "solid": "icons/solid/mail.svg",
+                "mini": "icons/mini/mail.svg"
+            }
+        },
+        {
+            "name": "map-pin",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["navigation"],
+            "tags": [
+                "map",
+                "pin",
+                "location",
+                "marker",
+                "place",
+                "gps",
+                "address"
+            ],
+            "paths": {
+                "outline": "icons/outline/map-pin.svg",
+                "solid": "icons/solid/map-pin.svg",
+                "mini": "icons/mini/map-pin.svg"
+            }
+        },
+        {
+            "name": "menu",
+            "style": ["outline", "mini"],
+            "categories": ["navigation", "ui"],
+            "tags": [
+                "menu",
+                "hamburger",
+                "nav",
+                "sidebar",
+                "bars",
+                "navigation"
+            ],
+            "paths": {
+                "outline": "icons/outline/menu.svg",
+                "mini": "icons/mini/menu.svg"
+            }
+        },
+        {
+            "name": "message-circle",
+            "style": ["outline"],
+            "categories": ["communication"],
+            "tags": [
+                "message",
+                "chat",
+                "comment",
+                "bubble",
+                "conversation",
+                "speak"
+            ],
+            "paths": {
+                "outline": "icons/outline/message-circle.svg"
+            }
+        },
+        {
+            "name": "minus",
+            "style": ["outline", "mini"],
+            "categories": ["ui"],
+            "tags": [
+                "minus",
+                "remove",
+                "subtract",
+                "delete",
+                "decrease",
+                "collapse"
+            ],
+            "paths": {
+                "outline": "icons/outline/minus.svg",
+                "mini": "icons/mini/minus.svg"
+            }
+        },
+        {
+            "name": "monitor",
+            "style": ["outline", "solid"],
+            "categories": ["devices"],
+            "tags": [
+                "monitor",
+                "screen",
+                "display",
+                "desktop",
+                "computer",
+                "tv"
+            ],
+            "paths": {
+                "outline": "icons/outline/monitor.svg",
+                "solid": "icons/solid/monitor.svg"
+            }
+        },
+        {
+            "name": "moon",
+            "style": ["outline", "solid"],
+            "categories": ["weather", "ui"],
+            "tags": ["moon", "night", "dark", "theme", "sleep", "dark-mode"],
+            "paths": {
+                "outline": "icons/outline/moon.svg",
+                "solid": "icons/solid/moon.svg"
+            }
+        },
+        {
+            "name": "phone",
+            "style": ["outline"],
+            "categories": ["communication", "devices"],
+            "tags": ["phone", "call", "telephone", "contact", "dial"],
+            "paths": {
+                "outline": "icons/outline/phone.svg"
+            }
+        },
+        {
+            "name": "plus",
+            "style": ["outline", "mini"],
+            "categories": ["ui"],
+            "tags": ["plus", "add", "create", "new", "increase", "expand"],
+            "paths": {
+                "outline": "icons/outline/plus.svg",
+                "mini": "icons/mini/plus.svg"
+            }
+        },
+        {
+            "name": "search",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "navigation"],
+            "tags": [
+                "search",
+                "find",
+                "magnifier",
+                "lookup",
+                "discover",
+                "query"
+            ],
+            "paths": {
+                "outline": "icons/outline/search.svg",
+                "solid": "icons/solid/search.svg",
+                "mini": "icons/mini/search.svg"
+            }
+        },
+        {
+            "name": "settings",
+            "style": ["outline", "mini"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "settings",
+                "gear",
+                "cog",
+                "preferences",
+                "config",
+                "options"
+            ],
+            "paths": {
+                "outline": "icons/outline/settings.svg",
+                "mini": "icons/mini/settings.svg"
+            }
+        },
+        {
+            "name": "share",
+            "style": ["outline"],
+            "categories": ["ui", "communication"],
+            "tags": ["share", "send", "social", "forward", "export"],
+            "paths": {
+                "outline": "icons/outline/share.svg"
+            }
+        },
+        {
+            "name": "shield",
+            "style": ["outline", "solid"],
+            "categories": ["security"],
+            "tags": ["shield", "security", "protect", "safe", "guard", "armor"],
+            "paths": {
+                "outline": "icons/outline/shield.svg",
+                "solid": "icons/solid/shield.svg"
+            }
+        },
+        {
+            "name": "shopping-bag",
+            "style": ["outline", "solid"],
+            "categories": ["commerce"],
+            "tags": ["shopping", "bag", "store", "purchase", "buy", "retail"],
+            "paths": {
+                "outline": "icons/outline/shopping-bag.svg",
+                "solid": "icons/solid/shopping-bag.svg"
+            }
+        },
+        {
+            "name": "shopping-cart",
+            "style": ["outline"],
+            "categories": ["commerce"],
+            "tags": [
+                "shopping",
+                "cart",
+                "basket",
+                "buy",
+                "ecommerce",
+                "checkout"
+            ],
+            "paths": {
+                "outline": "icons/outline/shopping-cart.svg"
+            }
+        },
+        {
+            "name": "smartphone",
+            "style": ["outline", "solid"],
+            "categories": ["devices"],
+            "tags": [
+                "smartphone",
+                "phone",
+                "mobile",
+                "device",
+                "iphone",
+                "android"
+            ],
+            "paths": {
+                "outline": "icons/outline/smartphone.svg",
+                "solid": "icons/solid/smartphone.svg"
+            }
+        },
+        {
+            "name": "star",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "media"],
+            "tags": [
+                "star",
+                "rating",
+                "favorite",
+                "bookmark",
+                "review",
+                "rank"
+            ],
+            "paths": {
+                "outline": "icons/outline/star.svg",
+                "solid": "icons/solid/star.svg",
+                "mini": "icons/mini/star.svg"
+            }
+        },
+        {
+            "name": "sun",
+            "style": ["outline", "solid"],
+            "categories": ["weather", "ui"],
+            "tags": ["sun", "light", "day", "bright", "theme", "light-mode"],
+            "paths": {
+                "outline": "icons/outline/sun.svg",
+                "solid": "icons/solid/sun.svg"
+            }
+        },
+        {
+            "name": "tablet",
+            "style": ["outline"],
+            "categories": ["devices"],
+            "tags": ["tablet", "ipad", "device", "screen", "mobile"],
+            "paths": {
+                "outline": "icons/outline/tablet.svg"
+            }
+        },
+        {
+            "name": "trash",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": ["trash", "delete", "remove", "bin", "garbage", "discard"],
+            "paths": {
+                "outline": "icons/outline/trash.svg",
+                "solid": "icons/solid/trash.svg"
+            }
+        },
+        {
+            "name": "unlock",
+            "style": ["outline", "mini"],
+            "categories": ["security", "ui"],
+            "tags": ["unlock", "open", "public", "access", "unsecure"],
+            "paths": {
+                "outline": "icons/outline/unlock.svg",
+                "mini": "icons/mini/unlock.svg"
+            }
+        },
+        {
+            "name": "upload",
+            "style": ["outline"],
+            "categories": ["ui", "system"],
+            "tags": ["upload", "send", "import", "arrow-up", "submit"],
+            "paths": {
+                "outline": "icons/outline/upload.svg"
+            }
+        },
+        {
+            "name": "user",
+            "style": ["outline", "solid", "mini"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "user",
+                "person",
+                "account",
+                "profile",
+                "avatar",
+                "member"
+            ],
+            "paths": {
+                "outline": "icons/outline/user.svg",
+                "solid": "icons/solid/user.svg",
+                "mini": "icons/mini/user.svg"
+            }
+        },
+        {
+            "name": "users",
+            "style": ["outline"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "users",
+                "people",
+                "group",
+                "team",
+                "members",
+                "community"
+            ],
+            "paths": {
+                "outline": "icons/outline/users.svg"
+            }
+        },
+        {
+            "name": "wifi",
+            "style": ["outline"],
+            "categories": ["devices", "system"],
+            "tags": [
+                "wifi",
+                "wireless",
+                "internet",
+                "signal",
+                "connection",
+                "network"
+            ],
+            "paths": {
+                "outline": "icons/outline/wifi.svg"
+            }
+        },
+        {
+            "name": "x",
+            "style": ["outline", "mini"],
+            "categories": ["ui"],
+            "tags": [
+                "x",
+                "close",
+                "cancel",
+                "remove",
+                "dismiss",
+                "cross",
+                "clear"
+            ],
+            "paths": {
+                "outline": "icons/outline/x.svg",
+                "mini": "icons/mini/x.svg"
+            }
+        },
+        {
+            "name": "zap",
+            "style": ["outline", "solid"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "zap",
+                "lightning",
+                "bolt",
+                "energy",
+                "power",
+                "flash",
+                "electric"
+            ],
+            "paths": {
+                "outline": "icons/outline/zap.svg",
+                "solid": "icons/solid/zap.svg"
+            }
+        },
+        {
+            "name": "facebook",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": ["facebook", "social", "meta", "social-media", "network"],
+            "paths": {
+                "brands": "icons/brands/facebook.svg"
+            }
+        },
+        {
+            "name": "github",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": [
+                "github",
+                "git",
+                "repository",
+                "code",
+                "developer",
+                "open-source"
+            ],
+            "paths": {
+                "brands": "icons/brands/github.svg"
+            }
+        },
+        {
+            "name": "instagram",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": ["instagram", "social", "photo", "camera", "social-media"],
+            "paths": {
+                "brands": "icons/brands/instagram.svg"
+            }
+        },
+        {
+            "name": "linkedin",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": [
+                "linkedin",
+                "social",
+                "professional",
+                "network",
+                "job",
+                "career"
+            ],
+            "paths": {
+                "brands": "icons/brands/linkedin.svg"
+            }
+        },
+        {
+            "name": "twitter",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": ["twitter", "social", "x", "tweet", "social-media"],
+            "paths": {
+                "brands": "icons/brands/twitter.svg"
+            }
+        },
+        {
+            "name": "youtube",
+            "style": ["brands"],
+            "categories": ["social"],
+            "tags": ["youtube", "video", "social", "stream", "play", "channel"],
+            "paths": {
+                "brands": "icons/brands/youtube.svg"
+            }
+        },
+        {
+            "name": "avatar-placeholder",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": ["avatar", "placeholder", "profile", "user", "default"],
+            "paths": {
+                "custom": "icons/custom/avatar-placeholder.svg"
+            }
+        },
+        {
+            "name": "color-picker",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": ["color", "picker", "palette", "design", "theme", "swatch"],
+            "paths": {
+                "custom": "icons/custom/color-picker.svg"
+            }
+        },
+        {
+            "name": "dashboard",
+            "style": ["custom"],
+            "categories": ["ui", "data"],
+            "tags": [
+                "dashboard",
+                "layout",
+                "grid",
+                "widgets",
+                "panels",
+                "overview"
+            ],
+            "paths": {
+                "custom": "icons/custom/dashboard.svg"
+            }
+        },
+        {
+            "name": "dark-mode-toggle",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": ["dark-mode", "theme", "toggle", "moon", "night", "switch"],
+            "paths": {
+                "custom": "icons/custom/dark-mode-toggle.svg"
+            }
+        },
+        {
+            "name": "drag-handle",
+            "style": ["custom"],
+            "categories": ["ui"],
+            "tags": [
+                "drag",
+                "handle",
+                "grip",
+                "move",
+                "reorder",
+                "sort",
+                "dnd"
+            ],
+            "paths": {
+                "custom": "icons/custom/drag-handle.svg"
+            }
+        },
+        {
+            "name": "empty-state",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "empty",
+                "state",
+                "placeholder",
+                "blank",
+                "no-data",
+                "no-results"
+            ],
+            "paths": {
+                "custom": "icons/custom/empty-state.svg"
+            }
+        },
+        {
+            "name": "loading-spinner",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "loading",
+                "spinner",
+                "progress",
+                "wait",
+                "busy",
+                "processing"
+            ],
+            "paths": {
+                "custom": "icons/custom/loading-spinner.svg"
+            }
+        },
+        {
+            "name": "notification-badge",
+            "style": ["custom"],
+            "categories": ["ui", "communication"],
+            "tags": [
+                "notification",
+                "badge",
+                "alert",
+                "bell",
+                "dot",
+                "indicator",
+                "count"
+            ],
+            "paths": {
+                "custom": "icons/custom/notification-badge.svg"
+            }
+        },
+        {
+            "name": "qr-code",
+            "style": ["custom"],
+            "categories": ["system", "data"],
+            "tags": ["qr", "code", "scan", "barcode", "link", "matrix"],
+            "paths": {
+                "custom": "icons/custom/qr-code.svg"
+            }
+        },
+        {
+            "name": "resize",
+            "style": ["custom"],
+            "categories": ["ui"],
+            "tags": [
+                "resize",
+                "scale",
+                "size",
+                "expand",
+                "shrink",
+                "transform"
+            ],
+            "paths": {
+                "custom": "icons/custom/resize.svg"
+            }
+        },
+        {
+            "name": "scroll-to-top",
+            "style": ["custom"],
+            "categories": ["navigation", "ui"],
+            "tags": ["scroll", "top", "up", "back-to-top", "page-up"],
+            "paths": {
+                "custom": "icons/custom/scroll-to-top.svg"
+            }
+        },
+        {
+            "name": "skeleton-loader",
+            "style": ["custom"],
+            "categories": ["ui", "system"],
+            "tags": [
+                "skeleton",
+                "loader",
+                "placeholder",
+                "loading",
+                "shimmer",
+                "content-loader"
+            ],
+            "paths": {
+                "custom": "icons/custom/skeleton-loader.svg"
+            }
+        }
+    ]
+}

@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IconVault — Free Open-Source SVG Icon Library</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        width="28"
+                        height="28"
+                    >
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <path d="M12 8v8" />
+                        <path d="M8 12h8" />
+                    </svg>
+                    <span>IconVault</span>
+                </div>
+                <div class="header-actions">
+                    <span class="icon-count" id="icon-count">0 icons</span>
+                    <button
+                        class="btn-theme"
+                        id="btn-theme"
+                        title="Toggle dark/light mode"
+                        aria-label="Toggle theme"
+                    >
+                        <svg
+                            class="icon-sun"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            width="20"
+                            height="20"
+                        >
+                            <circle cx="12" cy="12" r="5" />
+                            <path d="M12 1v2" />
+                            <path d="M12 21v2" />
+                            <path d="M4.22 4.22l1.42 1.42" />
+                            <path d="M18.36 18.36l1.42 1.42" />
+                            <path d="M1 12h2" />
+                            <path d="M21 12h2" />
+                            <path d="M4.22 19.78l1.42-1.42" />
+                            <path d="M18.36 5.64l1.42-1.42" />
+                        </svg>
+                        <svg
+                            class="icon-moon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            width="20"
+                            height="20"
+                        >
+                            <path
+                                d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"
+                            />
+                        </svg>
+                    </button>
+                    <a
+                        href="https://github.com/0xR3TRO/IconVault"
+                        class="btn-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub repository"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            width="22"
+                            height="22"
+                        >
+                            <path
+                                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Toolbar -->
+        <section class="toolbar" id="toolbar">
+            <div class="toolbar-inner">
+                <!-- Search -->
+                <div class="search-wrap">
+                    <svg
+                        class="search-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        width="18"
+                        height="18"
+                    >
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="M21 21l-4.35-4.35" />
+                    </svg>
+                    <input
+                        type="text"
+                        id="search-input"
+                        class="search-input"
+                        placeholder="Search icons by name or tag..."
+                        autocomplete="off"
+                    />
+                    <button
+                        class="search-clear hidden"
+                        id="search-clear"
+                        aria-label="Clear search"
+                    >
+                        &times;
+                    </button>
+                </div>
+
+                <!-- Filters row -->
+                <div class="filters-row">
+                    <!-- Style filters -->
+                    <div class="filter-group">
+                        <label class="filter-label">Style</label>
+                        <div class="filter-chips" id="style-filters">
+                            <button class="chip active" data-style="all">
+                                All
+                            </button>
+                            <button class="chip" data-style="outline">
+                                Outline
+                            </button>
+                            <button class="chip" data-style="solid">
+                                Solid
+                            </button>
+                            <button class="chip" data-style="mini">Mini</button>
+                            <button class="chip" data-style="brands">
+                                Brands
+                            </button>
+                            <button class="chip" data-style="custom">
+                                Custom
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Category filters -->
+                    <div class="filter-group">
+                        <label class="filter-label">Category</label>
+                        <div class="filter-chips" id="category-filters">
+                            <button class="chip active" data-category="all">
+                                All
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Size selector -->
+                    <div class="filter-group">
+                        <label class="filter-label">Preview Size</label>
+                        <div class="filter-chips" id="size-selector">
+                            <button class="chip" data-size="16">16</button>
+                            <button class="chip active" data-size="24">
+                                24
+                            </button>
+                            <button class="chip" data-size="32">32</button>
+                            <button class="chip" data-size="48">48</button>
+                            <button class="chip" data-size="64">64</button>
+                        </div>
+                    </div>
+
+                    <!-- Color picker -->
+                    <div class="filter-group filter-group-color">
+                        <label class="filter-label">Color</label>
+                        <div class="color-picker-wrap">
+                            <input
+                                type="color"
+                                id="color-picker"
+                                value="#1a1a2e"
+                                class="color-input"
+                            />
+                            <button
+                                class="chip chip-reset"
+                                id="color-reset"
+                                title="Reset to default"
+                            >
+                                Reset
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results info -->
+        <div class="results-info" id="results-info">
+            <span id="results-count">Loading...</span>
+        </div>
+
+        <!-- Icon grid -->
+        <main class="main">
+            <div class="icon-grid" id="icon-grid"></div>
+            <div class="empty-state hidden" id="empty-state">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    width="64"
+                    height="64"
+                >
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="M21 21l-4.35-4.35" />
+                    <path d="M8 11h6" />
+                </svg>
+                <p>No icons found matching your search.</p>
+                <button class="btn-clear-filters" id="btn-clear-filters">
+                    Clear all filters
+                </button>
+            </div>
+        </main>
+
+        <!-- Modal for icon detail / copy -->
+        <div class="modal-overlay hidden" id="modal-overlay">
+            <div class="modal" id="modal" role="dialog" aria-modal="true">
+                <button class="modal-close" id="modal-close" aria-label="Close">
+                    &times;
+                </button>
+                <div class="modal-preview" id="modal-preview"></div>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <div class="modal-meta" id="modal-meta"></div>
+
+                <!-- Size previews -->
+                <div class="modal-sizes" id="modal-sizes">
+                    <span class="size-preview" data-s="16"></span>
+                    <span class="size-preview" data-s="24"></span>
+                    <span class="size-preview" data-s="32"></span>
+                    <span class="size-preview" data-s="48"></span>
+                    <span class="size-preview" data-s="64"></span>
+                </div>
+
+                <!-- Code tabs -->
+                <div class="code-tabs">
+                    <button class="code-tab active" data-tab="svg">
+                        Raw SVG
+                    </button>
+                    <button class="code-tab" data-tab="react">React</button>
+                    <button class="code-tab" data-tab="vue">Vue</button>
+                </div>
+                <div class="code-block-wrap">
+                    <pre class="code-block" id="code-block"></pre>
+                    <button class="btn-copy" id="btn-copy">Copy</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast -->
+        <div class="toast hidden" id="toast">Copied!</div>
+
+        <footer class="footer">
+            <p>
+                IconVault &mdash; Free &amp; open-source SVG icons.
+                <a
+                    href="https://github.com/0xR3TRO/IconVault"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                >
+            </p>
+            <p class="footer-license">
+                CC0 1.0 &mdash; No rights reserved. Free for personal &amp;
+                commercial use.
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
